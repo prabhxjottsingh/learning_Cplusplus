@@ -1,0 +1,40 @@
+Standard Template Library: 
+
+1. Library of generic classes and functions.
+2. Reusing Well-Tested codes.
+3. Time-Saving.
+
+
+Components of STL:
+1. Containers  --> Use Template Classes
+2. Algorithms  --> Set of Procedures to perform a certain task.(Searching, Sorting, Merging), USE TEMPLATE FuNCTIONS
+3. Iterators   --> Its an object, that points to an elemnt in a container, handeled just like pointers, connects algorithms with containers.
+
+STL is used becasue its a good idea not to reinvent the wheel.
+
+
+CONTAINERS -> OBJECTS WHICH STORES DATA
+ALGORITHM  -> PROCEDURE TO PROCESS DATA
+ITERATORS  -> OBJECT WHICH POINTS TO AN ELEMENT OF A CONTAINER
+
+Containers: 
+1. Sequence Containers    -> Store Data in Linear Fashion (data is stored in a line) for ex. Vector, List, Dequeue(double ended queue) 
+2. Associative Containers -> Direct Access - Tree (Ex. Map, Multimap, set, multiset) fast searching, sorting, etc.
+3. Derived Containers     -> Drived from upper both containers, real world modelling, queue, stacks, priority queue  are easily handeled by derived containers.
+
+
+Sequence Container:
+1. Vector: Random Access           ->fast 
+           Insertion/deletion      ->slow
+           Insertion at End        ->fast
+
+2. List:   Random Access           -> slow
+           Insertion in the middle -> fast    
+           Insertion at end        -> fast
+
+Associative Containers:
+All operations are fast, except RANDOM ACCESS.
+
+Derived Containers:
+Varies. 
+              
